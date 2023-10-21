@@ -66,7 +66,7 @@
         width: 100%;
     }
 
-    #section-4 .right > div {
+    #section-4 .right>div {
         display: flex;
         align-items: center;
         width: 100%;
@@ -188,12 +188,16 @@
         width: 100%;
     }
 
-    #section-7 > p {
+    #section-7>p {
         width: 100%;
     }
 }
 
 @media only screen and (max-width: 350px) {
+    nav ul {
+        width: 80%;
+    }
+
     #section-1 .icons {
         flex-wrap: wrap;
         gap: 1rem;
@@ -208,7 +212,7 @@
         width: fit-content;
     }
 
-    #section-4 .right > div {
+    #section-4 .right>div {
         width: auto;
     }
 
